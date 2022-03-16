@@ -4,7 +4,7 @@ const app = new Vue (
     el : '#root',
     
     data: { 
-        message: " ",
+        message: "Se usi i margini negativi Bob ti viene a cercare...",
         image: "img/bob.png",
     }
     

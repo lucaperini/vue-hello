@@ -25,13 +25,13 @@
 <body style = "font-family: 'Montserrat', sans-serif">
     <main id="root">
         <div class="container">
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-12">
-                    <input v-model="message" type="text">
-                    <h1 class="fs-2 text-align-center">{{ message }}</h1>
+                    <!-- <input class="m-5" v-model="message" type="text"> -->
+                    <h1 class="fs-2 fw-bold text-uppercase text-align-center p-5">{{ message }}</h1>
                 </div>
                 <div>
-                    <img class="p-5 img-fluid" :src = "image"  alt="immagine">
+                    <img class="p-5 rounded-pill w-50" :src = "image"  alt="immagine">
                 </div>
             </div>
         </div>
