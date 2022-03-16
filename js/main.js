@@ -2,8 +2,13 @@ const app = new Vue (
 
 {
     el : '#root',
+    
     data: { 
-        message: "ciao",
+        message: " ",
+        image: "img/bob.png",
     }
+    
+    
 }
+
 )
